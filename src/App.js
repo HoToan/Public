@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/Home/home';
+import Shop from './components/Shop/shop';
+import Features from './components/Features/features';
+import Blog from './components/Blog/blog';
+import About from './components/About/about';
+import Contact from './components/Contact/contact';
+import Cart from './components/Cart/cart';
+import Productdetail from './components/Productdetail/productdetail';
+import Blogdetail from './components/Blogdetail/blogdetail';
+import Login from './components/Login/login';
+import Register from './components/Register/register';
+import Admin from './components/Admin/Admin/admin';
+import Notifications from './components/Admin/Notifications/notifications';
+import Tables from './components/Admin/Tables/tables';
+import Typography from './components/Admin/Typography/typography';
+import Upgrade from './components/Admin/Upgrade/upgrade';
+import User from './components/Admin/User/user';
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    render() {
+        return (
+            <Router>
+                <Switch>
+                    <Route path='/' exact component={Home} />
+                    <Route path='/Shop' component={Shop} />
+                    <Route path='/Features' component={Features} />
+                    <Route path='/Blog' component={Blog} />
+                    <Route path='/About' component={About} />
+                    <Route path='/Contact' component={Contact} />
+                    <Route path='/Cart' component={Cart} />
+                    <Route path='/Productdetail' component={Productdetail} />
+                    <Route path='/Blogdetail' component={Blogdetail} />
+                    <Route path='/Login' component={Login} />
+                    <Route path='/Register' component={Register} />
+
+                </Switch>
+            </Router>
+        );
+    }
 }
 
 export default App;
