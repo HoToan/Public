@@ -5,7 +5,6 @@ import Allproducts from './Allproducts';
 import Slider from './Slider';
 import Banner from './Banner';
 import Footer from './Footer';
-import Header1 from './Header1';
 import Sidebar from './Sidebar';
 import Cart from './Cart';
 

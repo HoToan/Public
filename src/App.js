@@ -11,12 +11,7 @@ import Productdetail from './components/Productdetail/productdetail';
 import Blogdetail from './components/Blogdetail/blogdetail';
 import Login from './components/Login/login';
 import Register from './components/Register/register';
-import Admin from './components/Admin/Admin/admin';
-import Notifications from './components/Admin/Notifications/notifications';
-import Tables from './components/Admin/Tables/tables';
-import Typography from './components/Admin/Typography/typography';
-import Upgrade from './components/Admin/Upgrade/upgrade';
-import User from './components/Admin/User/user';
+
 class App extends Component {
 
     render() {

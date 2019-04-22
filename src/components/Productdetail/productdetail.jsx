@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import Allproducts from '../Home/Allproducts';
-import Header1 from '../Home/Header1';
+import Header from '../Home/Header';
 class productdetail extends Component {
     render() {
         return (
             <div>
-                <Header1/>
-                <br/>
-                <br/>
-                <br/>
+                <Header />
+                <br />
+                <br />
+                <br />
                 {/* Cart */}
                 <div className="wrap-header-cart js-panel-cart">
                     <div className="s-full js-hide-cart" />
@@ -386,7 +386,7 @@ class productdetail extends Component {
                         </div>
                         {/* Slide2 */}
                         <div className="wrap-slick2">
-                            <Allproducts/>
+                            <Allproducts />
                         </div>
                     </div>
                 </section>

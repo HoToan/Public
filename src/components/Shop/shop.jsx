@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Header1 from '../Home/Header1';
+import Header from '../Home/Header';
 import Allproducts from '../Home/Allproducts';
 import Footer from '../Home/Footer';
 class shop extends Component {
     render() {
         return (
             <div>
-                <Header1/>
+                <Header/>
                 {/* Cart */}
                 <br/>
                 <br/>

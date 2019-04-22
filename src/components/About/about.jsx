@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import Header from '../Home/Header';
 import Footer from '../Home/Footer';
-import Header1 from '../Home/Header1';
 class about extends Component {
     render() {
         return (
             <div>
-                <Header1/>
-                <br/>
-                <br/>
-                <br/>
+                <Header />
+                <br />
+                <br />
+                <br />
                 {/* Cart */}
                 <div className="wrap-header-cart js-panel-cart">
                     <div className="s-full js-hide-cart" />
@@ -145,7 +143,7 @@ class about extends Component {
                     </div>
                 </section>
                 {/* Footer */}
-                <Footer/>
+                <Footer />
             </div>
         );
     }

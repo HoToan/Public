@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
-import Header1 from '../Home/Header1';
+import Header from '../Home/Header';
 import Footer from '../Home/Footer';
 class contact extends Component {
     render() {
         return (
             <div>
-                <Header1/>
+                <Header/>
                 <br/>
                 <br/>
                 <br/>
